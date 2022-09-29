@@ -4,6 +4,10 @@ img{
     max-width: 100%;
 }
 
+a{
+    color: inherit;
+}
+
 
 /* HEADER */
 
@@ -75,6 +79,12 @@ main section{
     background-color: #BEBCBB;
 }
 
-#plus .logo img{
+.logo img{
     max-width: 60%;
+}
+
+
+/* PLAY-NOW */
+#play-now{
+    background-color: #161C3B;
 }
