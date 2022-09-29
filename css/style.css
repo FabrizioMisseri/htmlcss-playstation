@@ -9,6 +9,7 @@ img{
 
 header{
     width: 100%;
+    height: 90px;
     position: fixed;
     left: 0;
     top: 0;
@@ -16,4 +17,21 @@ header{
 
 #header-top{
     background-color: black;
+}
+
+
+/* MAIN */
+
+main{
+    padding-top: 90px;
+}
+
+
+/* JUMBOTRON */
+#jumbotron{
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-position: center;
+    background-size: cover;
+    /* debug */
+    min-height: 700px;
 }
