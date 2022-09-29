@@ -5,6 +5,7 @@ img{
 }
 
 a{
+    /* debug */
     color: inherit;
 }
 
@@ -87,4 +88,12 @@ main section{
 /* PLAY-NOW */
 #play-now{
     background-color: #161C3B;
+}
+
+
+/* FOLLOW-US */
+@media screen and (min-width: 768px) {
+    #follow-us .box{
+        width: 60%;
+    }
 }
