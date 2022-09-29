@@ -48,3 +48,23 @@ main section{
     min-height: 100px;
     background-color: blue;
 }
+
+
+/* MULTIPLAYER */
+#multiplayer{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    /* debug */
+    min-height: 500px;
+}
+
+#multiplayer img{
+    max-width: 60%;
+}
+
+
+/* NUOVE USCITE */
+#nuove-uscite{
+    background-color: #1F1F1F;
+}
