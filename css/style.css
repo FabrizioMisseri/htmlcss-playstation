@@ -26,6 +26,10 @@ main{
     padding-top: 90px;
 }
 
+main section{
+    padding: 3rem 0;
+}
+
 
 /* JUMBOTRON */
 #jumbotron{
@@ -34,4 +38,12 @@ main{
     background-size: cover;
     /* debug */
     min-height: 700px;
+}
+
+
+/* UNDER JUMBOTRON */
+.ms_card{
+    /* debug */
+    min-height: 100px;
+    background-color: blue;
 }
