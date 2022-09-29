@@ -68,3 +68,13 @@ main section{
 #nuove-uscite{
     background-color: #1F1F1F;
 }
+
+
+/* PLUS */
+#plus{
+    background-color: #BEBCBB;
+}
+
+#plus .logo img{
+    max-width: 60%;
+}
