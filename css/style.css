@@ -44,6 +44,7 @@ header{
 span.ms_button a.btn.btn-primary{
     background-color: #363636;
     border-color: #363636;
+    border-radius: 25px;
 }
 
 
