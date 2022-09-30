@@ -18,10 +18,16 @@ header{
     left: 0;
     top: 0;
     z-index: 999;
+    height: 90px;
 }
 
 #header-top{
     background-color: black;
+    padding: 1rem 0;
+}
+
+#header-top img{
+    width: 120px;
 }
 
 
