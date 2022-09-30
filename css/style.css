@@ -58,6 +58,12 @@ main section , footer{
 }
 
 
+/* CONSOLE */
+#console a.btn.btn-primary{
+    background-color: #2D64E6;
+}
+
+
 /* MULTIPLAYER */
 #multiplayer{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
