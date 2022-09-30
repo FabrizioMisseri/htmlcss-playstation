@@ -73,8 +73,12 @@ main section , footer{
     min-height: 500px;
 }
 
-#multiplayer img{
-    max-width: 60%;
+#multiplayer a.btn.btn-danger{
+    background-color: #CD3D0F;
+}
+
+#multiplayer img.logo{
+    width: 40%;
 }
 
 
