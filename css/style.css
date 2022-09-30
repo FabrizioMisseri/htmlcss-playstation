@@ -145,6 +145,7 @@ img.logo{
 @media screen and (min-width: 768px) {
     #follow-us .box{
         width: 60%;
+        max-width: 770px;
     }
 }
 
