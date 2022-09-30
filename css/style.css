@@ -103,8 +103,13 @@ main section , footer{
 /* PLUS */
 section#plus{
     background-color: #BEBCBB;
-    padding-top: 0;
-    padding-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    section#plus{
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
 }
 
 img.logo{
@@ -120,6 +125,8 @@ img.logo{
     background-color: #D9DADC;
     text-decoration: none;
 }
+
+
 
 
 /* PLAY-NOW */
