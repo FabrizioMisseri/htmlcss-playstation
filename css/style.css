@@ -14,7 +14,6 @@ a{
 
 header{
     width: 100%;
-    height: 90px;
     position: fixed;
     left: 0;
     top: 0;
@@ -32,7 +31,7 @@ main{
     padding-top: 90px;
 }
 
-main section{
+main section , footer{
     padding: 3rem 0;
 }
 
@@ -40,10 +39,14 @@ main section{
 /* JUMBOTRON */
 #jumbotron{
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    background-position: center;
+    background-position: right;
     background-size: cover;
     /* debug */
     min-height: 700px;
+}
+
+#jumbotron a.btn.btn-danger{
+    background-color: #CD3D0F;
 }
 
 
@@ -80,7 +83,7 @@ main section{
     background-color: #BEBCBB;
 }
 
-.logo img{
+img.logo{
     max-width: 60%;
 }
 
@@ -96,4 +99,10 @@ main section{
     #follow-us .box{
         width: 60%;
     }
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #00439C;
 }
