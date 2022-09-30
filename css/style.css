@@ -105,11 +105,11 @@ img.logo{
     max-width: 60%;
 }
 
-#ms_btn{
+.ms_btn{
     display: inline-block;
     padding: .8rem 2.4rem;
     border-radius: 25px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: blue;
     background-color: #D9DADC;
     text-decoration: none;
@@ -120,6 +120,12 @@ img.logo{
 #play-now{
     background-color: #161C3B;
 }
+
+#play-now a.ms_btn{
+    color: black;
+    background-color: white;
+}
+
 
 
 /* FOLLOW-US */
