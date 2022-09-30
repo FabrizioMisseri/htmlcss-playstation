@@ -95,12 +95,24 @@ main section , footer{
 
 
 /* PLUS */
-#plus{
+section#plus{
     background-color: #BEBCBB;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 img.logo{
     max-width: 60%;
+}
+
+#ms_btn{
+    display: inline-block;
+    padding: .8rem 2.4rem;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    color: blue;
+    background-color: #D9DADC;
+    text-decoration: none;
 }
 
 
