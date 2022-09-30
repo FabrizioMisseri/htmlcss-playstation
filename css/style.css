@@ -142,12 +142,11 @@ img.logo{
 
 
 /* FOLLOW-US */
-@media screen and (min-width: 768px) {
-    #follow-us .box{
-        width: 60%;
-        max-width: 770px;
-    }
+
+#follow-us .box{
+    max-width: 800px;
 }
+
 
 
 /* FOOTER */
