@@ -88,6 +88,12 @@ main section , footer{
 }
 
 
+/* ESPLORA */
+#esplora a.btn.btnlprimary{
+    background-color: blue;
+}
+
+
 /* PLUS */
 #plus{
     background-color: #BEBCBB;
