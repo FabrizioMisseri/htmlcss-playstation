@@ -122,6 +122,39 @@ header li:hover .ms_hidden-menu{
 }
 
 
+/* UNDER JUMBOTRON */
+#under-jumbotron .ms_card-effect{
+    position: relative;
+}
+
+#under-jumbotron .ms_card-effect:hover{
+    animation: mossa .5s linear;
+}
+
+@keyframes mossa {
+
+    0% {
+        
+        left: 0; 
+        bottom: 0px;
+        }
+
+    50% {
+        
+        left: 0; 
+        bottom: 20px;
+    }
+
+    100% {
+        
+        left: 0; 
+        bottom: 40px;
+    }
+
+}
+
+
+
 /* CONSOLE */
 #console a.btn.btn-primary{
     background-color: #2D64E6;
