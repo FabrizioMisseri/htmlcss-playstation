@@ -89,7 +89,9 @@ header span.ms_button a.btn.btn-primary{
     border-radius: 25px;
 }
 
-
+header #header-bottom li{
+    position: static;
+}
 
 header .ms_hidden-menu{
     width: 100vw;
