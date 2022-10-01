@@ -55,7 +55,7 @@ header{
     left: 0;
     top: 0;
     z-index: 999;
-    height: 90px;
+    min-height: 90px;
 }
 
 #header-top{
@@ -67,7 +67,7 @@ header{
     width: 120px;
 }
 
-#header-bottom a.nav-link.dropdown-toggle{
+#header-bottom a.nav-link.dropdown-toggle:hover{
     color: black;
 }
 
@@ -83,10 +83,26 @@ header{
     width: 20px;
 }
 
-span.ms_button a.btn.btn-primary{
+header span.ms_button a.btn.btn-primary{
     background-color: #363636;
     border-color: #363636;
     border-radius: 25px;
+}
+
+
+
+header .ms_hidden-menu{
+    width: 100vw;
+    min-height: 200px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+header li:hover .ms_hidden-menu{
+    display: block;
 }
 
 
