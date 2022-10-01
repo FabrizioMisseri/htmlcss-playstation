@@ -34,7 +34,11 @@ header{
 }
 
 #header-bottom .dropdown-toggle::after{
-    color: black;
+    display: none;
+}
+
+#header-bottom li i{
+    font-size: .8rem;
 }
 
 #lens{
@@ -157,7 +161,6 @@ img.logo{
 
 
 /* FOLLOW-US */
-
 #follow-us .box{
     max-width: 800px;
 }
@@ -178,7 +181,8 @@ footer{
 }
 
 footer ul{
-    list-style: none;
+    list-style-type: none;
+    margin-bottom: 0;
 }
 
 footer a{
