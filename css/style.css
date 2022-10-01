@@ -123,11 +123,10 @@ header li:hover .ms_hidden-menu{
 
 
 /* UNDER JUMBOTRON */
-#under-jumbotron .ms_card-effect{
-    position: relative;
-}
-
 #under-jumbotron .ms_card-effect:hover{
+    position: relative;
+    left: 0;
+    bottom: 40px;
     animation: mossa .5s linear;
 }
 
