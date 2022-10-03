@@ -36,13 +36,10 @@ img.logo{
 }
 
 .ms_btn{
-    display: inline-block;
-    padding: .7rem 2rem;
     border-radius: 25px;
-    font-size: 1.1rem;
     color: blue;
     background-color: #D9DADC;
-    text-decoration: none;
+    border-color: white;
 }
 
 
@@ -111,8 +108,8 @@ header li:hover .ms_hidden-menu{
 
 /* JUMBOTRON */
 #jumbotron{
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    background-position: right;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: left;
     background-size: cover;
     min-height: 700px;
 }
@@ -192,6 +189,10 @@ header li:hover .ms_hidden-menu{
 /* PLUS */
 section#plus{
     background-color: #BEBCBB;
+}
+
+#plus .ms_btn{
+    border-color: #BEBCBB;
 }
 
 @media screen and (min-width: 768px) {
